@@ -11,6 +11,6 @@ import com.pinyougou.pojo.TbBrand;
  */
 public interface BrandService {
 
-	public List<TbBrand> findAll();
+	List<TbBrand> findAll();
 	
 }
