@@ -1,0 +1,1 @@
+var app = angular.module("pinyougou", ['pagination']);//定义公共的分页模块

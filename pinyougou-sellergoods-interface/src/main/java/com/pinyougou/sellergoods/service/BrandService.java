@@ -28,4 +28,43 @@ public interface BrandService {
      */
     PageResult findPage(int pageNum, int pageSize);
 
+    /**
+     * 添加
+     *
+     * @param brand
+     */
+    void addTbBrand(TbBrand brand);
+
+    /**
+     * 修改
+     *
+     * @param brand
+     */
+    void update(TbBrand brand);
+
+    /**
+     * 根据ID获取实体
+     *
+     * @param id
+     * @return
+     */
+    TbBrand findOne(long id);
+
+    /**
+     * 删除
+     *
+     * @param ids
+     */
+    void delete(Long[] ids);
+
+    /**
+     * 根据条件查询 分页
+     *
+     * @param brand
+     * @param pageNum
+     * @param pageSize
+     * @return
+     */
+    PageResult findPage(TbBrand brand, int pageNum, int pageSize);
+
 }
